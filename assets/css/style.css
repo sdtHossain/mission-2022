@@ -135,4 +135,31 @@ h6 {
     font-size: 16px;
 }
 
+/* ------Develop without limit(Two column)------ */
+.two-col {
+    padding-top: 85px;
+}
+.two-col .flexbox {
+    justify-content: space-between;
+    align-items: center;
+}
+.two-col.reverse .flexbox {
+    flex-direction: row-reverse;
+}
+.two-col-left {
+    width: 35%;
+    margin-right: 70px;
+}
+.two-col.reverse .two-col-left {
+    margin-right: 0;
+    margin-left: 70px;
+}
+.two-col-left img {
+    max-width: 100%;
+}
+
+.two-col-right {
+    width: 58%;
+}
+
 }
