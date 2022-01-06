@@ -188,4 +188,21 @@ h6 {
     margin-right: auto;
 }
 
+/* ------Footer------ */
+footer {
+    background: #000;
+    padding: 40px;
+    text-align: center;
+}
+footer h3 {
+    font-family: 'Lobster', cursive;
+    margin-bottom: 24px;
+    color: #FFFFFF;
+}
+footer h3 span {
+    color: #FFAD5A;
+}
+footer p {
+    font-size: 14px;
+    color: #D9DBE1;
 }
